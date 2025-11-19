@@ -281,6 +281,10 @@ body {
    MOBILE (0–479px)
 --------------------------- */
 @media (max-width: 479px) {
+    .banner div h2 {
+    line-height: 0.1;
+    font-size: 15px;
+}
     .navbar {
         flex-direction: column;
         height: auto;
